@@ -1,0 +1,83 @@
+
+body.ddusona-page {
+    background-image: url(../images/ddubg.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    min-height: 100vh;
+    height: 100%;
+    position: relative;
+}
+
+body.ddusona-page:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(167 167 167 / 20%);
+    z-index: 0;
+}
+
+.ddusona-page header.top-header {
+    background: rgb(177 177 177);
+}
+
+.ddusona-page header.top-header,
+.ddusona-page .container.body-content {
+    position: relative;
+    z-index: 1;
+}
+
+.ddusona-page .header_top {
+    background: transparent !important;
+}
+
+.ddusona-page .custom-logo a,
+.ddusona-page .custom-logo a span {
+    color: #19515a;
+}
+
+.ddusona-page .emplogin p {
+    color: #19515a !important;
+}
+
+.ddusona-page nav.navbar {
+    background: rgb(41 153 171) !important;
+}
+
+.ddusona-page a.nav-link.active,
+.ddusona-page .navbar-dark .navbar-nav .nav-link:hover {
+    background-color: #7cc6d2;
+    color: #000 !important;
+}
+
+
+.ddusona-page .tab-group {
+    background-color: rgb(77,208,231) !important;
+    background: radial-gradient(circle, rgba(77,208,231,1) 0%, rgba(61,166,182,1) 100%) !important;
+}
+
+.ddusona-page .tab a.active,
+.ddusona-page .tab a:hover {
+    background-color: rgb(16 112 128) !important;
+    color: #fff !important;
+}
+
+.ddusona-page .tabcontent {
+    border-color: #2999ab !important;
+    background-color: rgb(199 239 245 / 0.2);
+}
+
+.ddusona-page .body-content table thead tr th {
+    background: rgb(198 240 247 / 100%) !important;
+}
+
+.ddusona-page .CompleteProgress {
+    background-color: rgb(185 74 63 / 0.5);
+}
+
+.ddusona-page .body-content table {
+    border-color: #3faabb !important;
+}
